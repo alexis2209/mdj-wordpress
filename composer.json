@@ -1,0 +1,19 @@
+{
+  "name": "alexis/wordpress",
+  "license": "proprietary",
+  "type": "project",
+
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {
+  },
+  "scripts": {
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": null
+  }
+}
