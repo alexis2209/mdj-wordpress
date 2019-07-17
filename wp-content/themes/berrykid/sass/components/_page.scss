@@ -1,0 +1,225 @@
+/**
+ * 6.10 Contributor Page
+ * -----------------------------------------------------------------------------
+ */
+.contributor {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing:      border-box;
+	padding: 48px 10px;
+}
+
+.contributor:first-of-type {
+	padding-top: 24px;
+}
+
+.contributor-info {
+	margin: 0 auto;
+	max-width: 474px;
+}
+
+.contributor-avatar {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	float: left;
+	margin: 0 30px 20px 0;
+	padding: 2px;
+}
+
+.contributor-name {
+	font-size: 16px;
+	font-weight: 900;
+	line-height: 1.5;
+	margin: 0;
+}
+
+.contributor-bio a {
+	text-decoration: underline;
+}
+
+.contributor-bio a:hover {
+	text-decoration: none;
+}
+
+.contributor-posts-link {
+	display: inline-block;
+	line-height: normal;
+	padding: 10px 30px;
+}
+
+.contributor-posts-link:before {
+	content: "\f443";
+}
+
+
+/**
+ * 6.11 404 Page
+ * -----------------------------------------------------------------------------
+ */
+.notfound-page{
+   padding: 120px 0;
+   color: $black;
+   @media (min-width: $screen-sm) and (max-width: $screen-sm-max){
+      padding-left: 30px;
+      padding-right: 30px;
+   }
+   @media (max-width: $screen-phone) {
+      padding-left: 30px;
+      padding-right: 30px;
+   }
+   .title{
+      font-size: 200px;
+      color: #dedede;
+      font-weight: bold;
+      line-height: 1;
+      font-family: $font-family-monospace;
+      @media (max-width: $screen-phone) {
+         padding: 80px 0;
+      }
+      display: inline-block;
+   }
+   .sub{
+      font-size: 36px;
+      display: block;
+      position: relative;
+      font-family: $font-family-monospace;
+   }
+   .left-notfound{
+      height: 220px;
+   }
+   .error-description{
+      line-height: 30px;
+      position: relative;
+      z-index: 1000;
+   }
+   .page-action{
+      margin-top: 30px;
+      a{
+         padding: 12px 30px;
+         font-family: $font-family-monospace;
+         border-radius: 2px;
+         @include box-shadow(0 20px 35px 0 rgba(1,1,1,.1));  
+      }
+   }
+}     
+
+.archive.category, .single-post{
+   #content{
+      padding: 40px 70px;
+      background: $white;
+      @media (max-width: $screen-xs-max){
+         padding: 15px;
+         overflow: hidden;
+      }
+   }
+}
+
+.woocommerce-page.single-product{
+   #content{
+      > .product{
+         > div{
+            padding: 70px;
+            background: $white;
+            @include box-shadow(0px 3px 9px 0px rgba(50, 50, 50, 0.06));  
+            @media (max-width: $screen-xs-max){
+               padding: 15px;
+            }
+            &.products-collection.owl-carousel-play{
+               margin: 0;
+               .widget-title{
+                  text-align: center;
+                  font-size: 30px;
+               }
+               .carousel-controls{
+                  bottom: 60px;
+                  @media (max-width: $screen-xs-max){
+                     bottom: 30px;                  
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+
+.archive.woocommerce-page{
+    #content{
+        background: $white;
+        padding: 30px;
+        h1.page-title{
+         display: none;
+        }
+        .product-block .star-rating{
+         display: inline-block;
+        }
+    }
+}
+
+.category-lifestyle{
+   .opal-breadscrumb{
+      margin-bottom: 0;
+   }
+}
+.single-product{
+   .products-collection.owl-carousel-play{
+      .carousel-control{
+         top: 0;
+      }
+      h3.widget-title{
+         @include rtl-margin-left(15px);
+      }
+   }
+}
+
+.wpcf7-form-control.btn{
+   height: 34px;
+   line-height: 23px;
+}
+
+.contact{
+   .kc_text_block{
+      p{
+         > span{
+            font-family: $font-family-monospace;
+            font-size: 17px;
+         }
+      }
+   }
+   .kc-google-maps{
+      iframe{
+         height: 440px !important;
+      }
+   }
+   .contact-form{
+      .form-group{
+         margin-bottom: 30px;
+      }
+      .form-control {
+         background-color: #f3f3f3;
+         color: $text-color;
+         font-family: $font-family-monospace;
+         height: 50px;
+         &.wpcf7-textarea{
+            height: auto;
+         }
+      }
+      .wpcf7-form-control.btn{
+         width: 100%;
+         height: 48px;
+         border-radius: 30px;
+      }
+   }
+}
+
+.single-portfolio{
+   .gallery-thumb{
+      .carousel-controls{
+         bottom: -50px;
+         .carousel-control{
+            span{
+               font-size: 20px;
+            }
+         }
+      }
+   }
+}

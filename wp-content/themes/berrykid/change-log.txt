@@ -1,0 +1,20 @@
+Version: 1.3 
+Updated 26-October-2017
+- update woo 3.2
+- remove file js
+- update file languages
+- update menu mobile
+
+Change log:
+/themes/berrykid/js/functions.js
+/themes/berrykid/kingcomposer/element_blog_posts.php
+/themes/berrykid/languages/berrykid.pot
+/themes/berrykid/style.css
+/themes/berrykid/woocommerce/cart/mini-cart.php
+/themes/berrykid/woocommerce/single-product-reviews.php
+(-) /themes/berrykid/js/customizer.js
+(-) /themes/berrykid/js/featured-content-admin.js
+(-) /themes/berrykid/js/isotope.pkgd.min.js
+(-) /themes/berrykid/js/jquery.counterup.min.js
+(-) /themes/berrykid/js/slider.js
+(-) /themes/berrykid/js/waypoints.min.js

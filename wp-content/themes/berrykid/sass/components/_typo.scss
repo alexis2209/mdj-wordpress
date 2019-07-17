@@ -1,0 +1,12 @@
+/* baloo-paaji-regular - latin */
+@font-face {
+	  font-family: 'Baloo Paaji';
+	  font-style: normal;
+	  font-weight: 400;
+	src: url('#{$image-fonts-path}baloo-paaji-v1-latin-regular.eot'); /* IE9 Compat Modes */
+	src: url('#{$image-fonts-path}baloo-paaji-v1-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$image-fonts-path}baloo-paaji-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('#{$image-fonts-path}baloo-paaji-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('#{$image-fonts-path}baloo-paaji-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('#{$image-fonts-path}baloo-paaji-v1-latin-regular.svg#BalooPaaji') format('svg'); /* Legacy iOS */
+}
